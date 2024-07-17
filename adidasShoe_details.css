@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF9F6;
+    font-family: "Spectral SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/* Styling for desktop navbar */
+
+#heading{
+    width: auto;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+#nav li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-out;
+}
+
+#nav li{
+    list-style: none;
+}
+
+#btn{
+    display: flex;
+}
+
+.nav_btn{
+    font-size: 20px;
+    transition: 0.3s ease-out;
+}
+
+#menu_btn{
+    display: none;
+}
+
+#nav a:hover{
+    background-color: #FF6B00;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+li:hover{
+    transform:translateY(-5%)
+}
+
+.nav_btn:hover{
+    transform: translateY(-10%);
+}
+
+.showmenu{
+    display: flex !important;
+}
+
+/* Responsive for navbar */
+
+
+@media screen and (max-width: 740px) {
+
+    #navigation{
+        margin-top: 90px;
+    }
+
+    #nav{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: white;
+        padding: 30px 30px;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: 2;
+    }
+    
+    #menu_btn{
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+        padding: 50px;
+        font-size: 34px;
+        font-weight: 500;
+        z-index: 2;
+    }
+
+    #navigation #btn{
+        flex: 1;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+
+    .nav_btn{
+        font-size: 20px;
+    }
+    
+}
+
+/* Styling for product details section */
+
+#details_section{
+    margin-top: 100px;
+}
+
+.product_details{
+    display: flex;
+    gap: 50px;
+}
+
+.product_details_image{
+    width: 700px;
+    height: 450px;
+    background-color: #FFDACF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buy_now_btn{
+    background-color: #FF6B00;
+    color: white;
+}
+
+.buy_now_btn:hover{
+    background-color: orange;
+    color: black;
+}
+
+.product_view:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.quantity_checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 740px) {
+    .product_details{
+        display: block;
+    }
+    .product_details .price_details {
+        width: auto;
+    }
+    .product_details .product_details_image{
+        width: auto;
+    }
+}
+
+/* Styling for Footer details */
+
+.shop_details{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.shop_details .footer_links li{
+    list-style: none;
+}
+
+.footer_links p{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_input{
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    padding-right: 57px;
+}
+
+#footer_input{
+    margin-top: 40px;
+    position: relative;
+}
+
+.send_fill_btn{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+@media screen and (max-width: 740px) {
+    .shop_details{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .shop_details .footer_links li{
+        text-align: justify;
+    }
+    .shop_details .footer_links ul{
+        margin-top: 0px;
+    }
+    #footer_input{
+        margin-top: 0px;
+    }
+}

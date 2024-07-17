@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Shoe-Cart</title>
+</head>
+<body>
+
+    <!--=== Start of Header section ===-->
+    <header id="heading" class="container">
+        
+        <!--=== Navigation Menu ===-->
+        <nav id="navigation">
+            <div>
+                <h1>Shoe-<span style="color: #FF6B00;">Cart</span></h1>
+            </div>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div id="btn">
+                <button class="btn nav_btn"><i class="bi bi-search"></i></button>
+                <button class="btn nav_btn"><i class="bi bi-cart"></i></button>
+                <button class="btn nav_btn"><i class="bi bi-person-circle"></i></button>
+            </div>
+
+            <!--=== Hamburger menu Icon ===-->
+            <button id="menu_btn" class="btn"><i class="bi bi-list"></i></button>
+
+        </nav>
+        
+    </header>
+    <!--=== End of Header section  ===-->
+
+
+    <!--=== Start of main Section  ===-->
+    <main>
+        
+        <!--=== Start of Hero Section page ===-->
+        <div id="hero_section">
+            <div id="hero_page" class="container">
+                <div id="hero_content">
+                    <h1 style="font-weight: bold;" class="text-center">Fortune Steps</h1>
+                    <p>Step into Style with our latest <span style="color: #FF6B00;font-weight:700">Collections</span></p>
+                </div>
+                <div class="shoe_image">
+                    <img id="hero_page_shoe" width="600px" height="500px" src="./Images/hero_section_image.png" alt="shoes" />
+                </div>
+                <div class="shopNow">
+                    <!--=== Navigate to the shop page  ===-->
+                    <a href="shop.html" class="btn btn-custom">Shop Now</a>
+                </div>
+                    
+            </div>
+        </div>
+        <!--=== End of Hero Section page  ===-->
+
+
+        <!--=== Start of Products Category section ===-->
+        <section>
+            <div id="category" class="container">
+
+                <div>
+                    <h1>Explore Category</h1>
+                </div>
+
+                <div id="shoe_category">
+                    <div id="boxes" class="box_1 pb-5">
+                        <div>
+                            <!--=== Navigate to the shop page  ===-->
+                            <a href="shop.html">
+                                <img width="200px" src="./Images/Category1.png" alt="shoes" />
+                            </a>
+                        </div>
+                        <div class="formal">
+                            <h2>Formal</h2>
+                        </div>
+                    </div>
+                    <div id="boxes" class="box_2 pb-5">
+                        <div>
+                            <!--=== Navigate to the shop page  ===-->
+                            <a href="shop.html">
+                                <img width="200px" src="./Images/Category2.png" alt="shoes" />
+                            </a>
+                        </div>
+                        <div class="casual">
+                            <h2>Casual</h2>
+                        </div>
+                    </div>
+                    <div id="boxes" class="box_3 pb-5">
+                        <div>
+                            <!--=== Navigate to the shop page  ===-->
+                            <a href="shop.html">
+                                <img width="200px" src="./Images/Category3.png" alt="shoes" />
+                            </a>
+                        </div>
+                        <div class="sports">
+                            <h2>Sports</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=== End of Products Category section ===-->
+
+
+        <!--=== Start of men and women category section ===-->
+        <section>
+            <div class="container">
+                <div id="banner_page">
+                    <div id="mens_banner">
+                        <img class="men_banner_img" width="720px" src="./Images/Mens_banner.png" alt="men's_shop" />
+                        <div class="men_name">
+                            <h2 style="font-weight: bold;">Men's</h2>
+                            <p>
+                                Shoes transform your </br>
+                                body language and </br>
+                                attitude.They lift you  </br>
+                                physically and emotionally.
+                            </p>
+                        </div>
+                        <div class="btn_for_banner1">
+                            <a href="shop.html" class="btn btn-custom">Shop Now</a>
+                        </div>
+                    </div>
+                    <div id="womens_banner">
+                        <img class="women_banner_img" width="720px" src="./Images/Women_banner.png" alt="women's_shop" />
+                        <div class="women_name">
+                            <h2 style="font-weight: bold;">Women's</h2>
+                            <p>
+                                Shoes transform your </br>
+                                body language and </br>
+                                attitude.They lift you  </br>
+                                physically and emotionally.
+                            </p>
+                        </div>
+                        <div class="btn_for_banner2">
+                            <a href="shop.html" class="btn btn-custom">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=== End of men and women category section ===-->
+
+
+        <!--=== Start of Trending Products section ===-->
+        <section>
+            <div class="container">
+
+                <div class="trendings">
+
+                    <div id="product_view">
+
+                        <div class="trending_products">
+                            <p>Trending products | </p>
+                        </div>
+                        <div class="latest_products">
+                            <p>Lastest products | </p>
+                        </div>
+                        <div class="best_seller">
+                            <p>Best Seller</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1>Trending Products</h1>
+                    </div>
+
+                    <div id="trending_products">
+                        <button class="btn carousel_left_btn"><i class="bi bi-arrow-left-circle"></i></button>
+                        <div id="trends_list">
+
+                            <div class="item">
+                                <div class="product_image">
+                                    <img class="product_image_hover" width="200" src="./Images/Trending_product1.png" alt="shoes" />
+                                    <a class=" btn view_item_btn text-decoration-none text-white" href="nikeShoe_details.html">View item</a>
+                                </div>
+                                <div style="width: 265px;" class="mt-3">
+                                    <span>Nike</span>
+                                </div>
+                                <p class="ps-2 bestSeller mt-2">#1 Best Seller</p>
+                                <span>13.99</span>
+                                <span class="text-decoration-line-through p-2">£15.99</span>
+                                <span>95%</span>
+                            </div>
+
+                            <div class="item">
+                                <div class="product_image">
+                                    <img class="product_image_hover" width="200" src="./Images/Trending_product2.png" alt="shoes" />
+                                    <a class=" btn view_item_btn text-decoration-none text-white" href="adidasShoe_details.html">View item</a>
+                                </div>
+                                <div style="width: 265px;" class="mt-3">
+                                    <span>Adidas</span>
+                                </div>
+                                <p class="ps-2 bestSeller mt-2">#1 Best Seller</p>
+                                <span>13.99</span>
+                                <span class="text-decoration-line-through p-2">£15.99</span>
+                                <span>95%</span>
+                            </div>
+
+                            <div class="item">
+                                <div class="product_image">
+                                    <img class="product_image_hover" width="200" src="./Images/Trending_product3.png" alt="shoes" /> 
+                                    <a class=" btn view_item_btn text-decoration-none text-white" href="converseShoe_details.html">View item</a>
+                                </div>
+                                <div style="width: 265px;" class="mt-3">
+                                    <span>Converse</span>
+                                </div>
+                                <p class="ps-2 bestSeller mt-2">#1 Best Seller</p>
+                                <span>13.99</span>
+                                <span class="text-decoration-line-through p-2">£15.99</span>
+                                <span>95%</span>
+                            </div>
+
+                            <div class="item">
+                                <div class="product_image">
+                                    <img class="product_image_hover" width="200" src="./Images/Trending_product4.png" alt="shoes" /> 
+                                    <a class=" btn view_item_btn text-decoration-none text-white" href="vansShoe_Details.html">View item</a>
+                                </div>
+                                <div style="width: 265px;" class="mt-3">
+                                    <span>Vans Black</span>
+                                </div>
+                                <p class="ps-2 bestSeller mt-2">#1 Best Seller</p>
+                                <span>13.99</span>
+                                <span class="text-decoration-line-through p-2">£15.99</span>
+                                <span>95%</span>
+                            </div>
+
+                        </div>
+                        <button class="btn carousel_right_btn"><i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=== End of Trending Products section ===-->
+
+
+        <!--===Start of Customer Reviews section ===-->
+        <section>
+            <div id="review_container" class="container">
+
+                <div style="margin-bottom: 40px;">
+                    <h1>
+                        Customer's Reviews
+                    </h1>
+                </div>
+                <div class="review_container">
+                    <div class="reviews">
+                        <div class="customer_reviews customer_reviews1">
+                            <img class="customer_profile" width="200" src="./Images/customer1_img.png" alt="customer reviews" />
+                            <h2>Anina Joseph</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>Customers like the value, comfort, appearance and quality of the shoes.</br> For example, they mention that it's good value for money, looks good and that it has amazing quality.</p>
+                        </div>
+
+                        <div class="customer_reviews customer_reviews2">
+                            <img class="customer_profile" width="200" src="./Images/customer3_img.png" alt="customer reviews" />
+                            <h2>John Smith</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>"Absolutely impressed with these shoes! They are worth every penny.</br> The quality is exceptional, and they look even better in person.</p>
+                        </div>
+
+                        <div class="customer_reviews customer_reviews3">
+                            <img class="customer_profile" width="200" src="./Images/customer2_img.png" alt="customer reviews" />
+                            <h2>Sarah Davis</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>"I'm pleasantly surprised by these shoes! The price seemed too good to be true, but they are fantastic.</br> They look stylish and feel very well-made.</p>
+                        </div>
+
+                        <div class="customer_reviews customer_reviews4">
+                            <img class="customer_profile" width="200" src="./Images/customer4_img.png" alt="customer reviews" />
+                            <h2>David Wilson</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>"These shoes are a steal! The price is unbeatable for the quality you get.</br> They look even better in person than in the photos online.</p>
+                        </div>
+
+                        <div class="customer_reviews customer_reviews5">
+                            <img class="customer_profile" width="200" src="./Images/customer5_img.png" alt="customer reviews" />
+                            <h2>Sophia Clark</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>"I'm thrilled with my new shoes!</br> They offer fantastic value for money without compromising on quality.</p>
+                        </div>
+
+                        <div class="customer_reviews customer_reviews6">
+                            <img class="customer_profile" width="200" src="./Images/customer6_img.png" alt="customer reviews" />
+                            <h2>Benjamin Jackson</h2>
+                            <img width="200" src="./Images/review_star.png" />
+                            <p>"I love these shoes! They're such a great value for the price.</br> The design is modern and stylish, and they feel really durable.</p>
+                        </div>
+                    </div>
+
+                    <div id="review_btns">
+                        <button class="btn review_btns prev_btn" onclick="prevSlides()"><i class="bi bi-arrow-left-circle"></i></button>
+                        <button class="btn review_btns next_btn" onclick="nextSlides()"><i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===End of Customer Reviews section ===-->
+
+    </main>
+    <!--=== End of main Section  ===-->
+
+
+    <!--===Start of Footer section ===-->
+    <footer>
+        <div>
+            <div class="shop_details">
+                <div>
+                    <h4 style="font-weight: bold; margin-top: 70px">Step into our <span style="color: #FF6B00;">Styles</span></h4>
+                </div>
+                <div class="footer_links">
+                    <h4 style="font-weight: bold; margin-bottom: 30px">Important Links</h4>
+                    <div>
+                        <p><a class="text-decoration-none" href="shop.html">Shop Now</a></p>
+                        <p><a class="text-decoration-none" href="about.html">About Us</a></p>
+                        <p><a class="text-decoration-none" href="index.html">Home</a></p>
+                        <p><a class="text-decoration-none" href="contact.html">Contact</a></p>
+                    </div>
+                </div>
+                <div>
+                    <h4 style="font-weight: bold;margin-bottom: 30px">Contact Us</h4>
+                    <p>Call: (+44) 123-456-789</p>
+                    <p>Email: ShoeCart@gmail.com</p>
+                    <p>Address: 123 main St.City Center</p>
+                    <p>United Kingdom</p>
+                </div>
+                <div id="footer_input">
+                    <input class="footer_input" type="text" placeholder="Enter your email address">
+                    <div class="send_fill_btn">
+                        <a style="font-size: 24px;"><i class="bi bi-send-fill"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img style="margin-top: 0; margin-bottom: 50px" width="100%" height="2px" src="./Images/Vector_img.png" />
+            </div>
+        </div>
+    </footer>
+    <!--===End of Footer section ===-->
+
+    <script>
+
+        //script for mobile navigation..!
+        const menuBtn = document.getElementById('menu_btn');
+        const showMenu = document.querySelector('nav ul')
+
+        menuBtn.addEventListener('click', update);
+
+        function update() {
+            showMenu.classList.toggle('showmenu');
+        }
+    </script>
+
+    <!-- script for trending products caurosel. -->
+    <script src="index.js"></script>
+</body>
+
+</html>
